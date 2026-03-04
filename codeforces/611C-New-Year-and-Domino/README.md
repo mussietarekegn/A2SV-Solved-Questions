@@ -1,6 +1,6 @@
 # 611C-New-Year-and-Domino
 
-**Problem:** [611C-New-Year-and-Domino](https://codeforces.com/contest/611/problem/C)
+**Problem:** [611C-New-Year-and-Domino](https://codeforces.com/problemset/problem/611/C)
 
 **time limit per test:** 3 seconds
 
