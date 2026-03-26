@@ -6,11 +6,12 @@ class Solution:
             if len(combo)==k:
                 ans.append(combo[:])
                 return 
-            
-            for nc in range(start,n+1):
-                combo.append(nc)
-                helper(nc+1,combo)
-                combo.pop()
+            if start>n:
+                return 
+            combo.append(start)
+            helper(start+1,combo)
+            combo.pop()
+            helper(start+1,combo)
         
         helper(1,[])
 
