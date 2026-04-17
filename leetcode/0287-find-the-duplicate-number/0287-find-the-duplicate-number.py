@@ -7,12 +7,13 @@ class Solution:
                 nums[l],nums[idx]=nums[idx],nums[l]
             else:
                 l+=1
-        
+        print(nums)
         ans=0
 
-        for i in range(len(nums)):
-            if i+1!=nums[i]:
-                ans=nums[i]
-                break
+        # for i in range(len(nums)):
+        #     if i+1!=nums[i]:
+        #         ans=nums[i]
+        #         break
         
-        return ans
+        # return ans
+        return nums[-1]
